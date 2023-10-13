@@ -39,7 +39,6 @@ ul {
 }
 
 #cat-list, #dog-list {
-    cursor: pointer;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +88,7 @@ ul {
 }
 
 li {
+    cursor: pointer;
     position: relative;
     font-size: 5vw;
     margin: 0;
